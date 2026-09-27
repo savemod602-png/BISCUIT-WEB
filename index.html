@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biscuit 🩷 Discord Developer</title>
+<meta name="description" content="Biscuit — Discord server developer. Come say hi!">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&amp;family=Quicksand:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- Background video -->
+<div class="video-wrap" aria-hidden="true">
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="./video.mp4" type="video/mp4">
+  </video>
+  <div class="video-overlay"></div>
+</div>
+
+<!-- Floating decorative hearts -->
+<div class="floaties" aria-hidden="true">
+  <span>🩷</span><span>✨</span><span>🩷</span><span>💗</span><span>✨</span><span>🩷</span>
+</div>
+
+<!-- Theme toggle -->
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+  <i class="fa-solid fa-sun sun-icon"></i>
+  <i class="fa-solid fa-moon moon-icon"></i>
+</button>
+
+<main class="page">
+  <section class="card" id="profile-card">
+
+    <div class="avatar-ring">
+      <img src="./avatar.png" alt="Biscuit" class="avatar">
+    </div>
+
+    <h1 class="title" data-text="BISCUIT">BISCUIT</h1>
+    <p class="subtitle">✨ Discord Server Developer ✨</p>
+
+    <div class="bio sc">
+      <p class="bio-greeting">Hey! I'm Biscuit</p>
+      <p>I'm a Discord Server Developer who loves building and setting up awesome servers. When I'm not coding, I'm usually playing Minecraft or streaming my games!</p>
+
+      <h2 class="section-label">About Me</h2>
+      <ul class="about-list">
+        <li><span class="label">Birthday</span><span class="value">July 3, 2011</span></li>
+        <li><span class="label">Vibe</span><span class="value">I love gaming, chatting, and deep talks with friends.</span></li>
+      </ul>
+
+      <h2 class="section-label">My Best Friends</h2>
+      <ul class="friends-list">
+        <li><i class="fa-solid fa-heart"></i> Doom <span class="tag">— My man🩷</span></li>
+        <li><i class="fa-solid fa-heart"></i> Malak</li>
+        <li><i class="fa-solid fa-heart"></i> Zero</li>
+        <li><i class="fa-solid fa-heart"></i> Venom</li>
+      </ul>
+
+      <p class="bio-closing">Feel free to message me if you want to chat, work on a Discord server, or play together!</p>
+    </div>
+
+    <div class="links">
+
+      <a class="link-btn" href="https://www.tiktok.com/@me.73.3?_r=1&amp;_t=ZS-9A3LmtPLNLR" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-tiktok"></i>
+        <span>Main TikTok</span>
+      </a>
+
+      <a class="link-btn" href="https://www.tiktok.com/@me.7.73?_r=1&amp;_t=ZS-9A3LnbA7afE" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-tiktok"></i>
+        <span>Backup TikTok</span>
+      </a>
+
+      <a class="link-btn" href="https://www.instagram.com/e7_.3j?stkn=MXV3ZXk0ZGltenJsbw==" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
+
+      <a class="link-btn img-btn" href="https://discord.gg/alpha-mc" target="_blank" rel="noopener noreferrer">
+        <img src="./alpha.png" alt="Alpha MC">
+        <span>ALPHA MC Server</span>
+      </a>
+
+      <a class="link-btn img-btn" href="https://discord.gg/kartona-1055918152892031059" target="_blank" rel="noopener noreferrer">
+        <img src="./kartona.jpg" alt="Kartona">
+        <span>Kartona Server</span>
+      </a>
+
+    </div>
+
+    <footer class="card-footer">made with 🩷 by biscuit</footer>
+  </section>
+</main>
+
+<script src="./script.js"></script>
+</body>
+</html>
